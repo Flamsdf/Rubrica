@@ -1,0 +1,17 @@
+ build
+**/target/
+**/build/
+
+# Maven Wrapper: tienilo versionato
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# IDE
+.idea/ *.iml *.ipr *.iws
+.settings/ .project .classpath .factorypath .sts4-cache
+.vscode/
+.DS_Store
+Thumbs.db
+
+application-local.properties
+application-*.secrets.properties
